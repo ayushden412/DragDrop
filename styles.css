@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+}
+
+.left-panel{
+    background-color: lightgray;
+    width: 20%;
+}
+
+.left-panel ul{
+    list-style-type: none;
+    padding: 0; 
+}
+
+.left-panel ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content{
+    width: 80%;
+    padding: 20px;
+}
+
+.content-section{
+    display: none;
+}
+
+.content-section.active{
+    display: block;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="left-panel">
+                <ul>
+                    <li onclick="showContent('home')">Home</li>
+                    <li onclick="showContent('contact')">Contact</li>
+                    <li onclick="showContent('information')">Information</li>
+                    <li onclick="showContent('guide')">Guide</li>
+                </ul>
+            </div>
+            <div class="content">
+                <div id="home" class="content-section">
+                    <h2>Home</h2>
+                    <p>Welcome to the home page!</p>
+                </div>
+                <div id="contact" class="content-section">
+                    <h2>Contact</h2>
+                    <p>Contact Information goes here.</p>
+                    <ul>
+                        <li><b>Name:</b> Ayush Sharma.</li>
+                        <li><b>Age:</b> 23.</li>
+                        <li><b>Mobile Number:</b> 8794053043.</li>
+                    </ul>
+                </div>
+                <div id="information" class="content-section">
+                    <h2>Information</h2>
+                    <p>Additional Information is displayed in this section.</p>
+                    <p>Good Evening everyone,<br/>I am <b>Ayush Sharma</b> and I am interested in <b>Front End Development</b> and I also love to work on the <b>Front End Development</b> projects.</p>
+                </div>
+                <div id="guide" class="content-section">
+                    <h2>Guide</h2>
+                    <p>A guide with instructions and details is shown here.</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
